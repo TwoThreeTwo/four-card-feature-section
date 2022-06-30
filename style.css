@@ -1,5 +1,46 @@
+
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }.attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.text-two { /*Title Attr* 2*/
+    font-weight: normal;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 20px 40px 40px;
+    background: rgb(255, 255, 255);
+    border-top: 4px solid rgb(87, 7, 236);
+    border-radius: 20px;
+    transition: all 0.8s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.one {
+    border-color: hsl(0, 78%, 62%);
+    text-align: left;
+}
+
+.two { /*card Two*/
+    border-color:hsl(180, 62%, 55%);
+}
+
+.three {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.four {
+    border-color: hsl(212, 86%, 64%);
 }
